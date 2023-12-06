@@ -25,7 +25,7 @@
 .par{
    position: absolute;
    bottom:17%;
-   right: 0%;
+   left: 10%;
    display:flex;
    height:15%;
    width:85%;
@@ -35,7 +35,7 @@
 }
 .par h1{
     height:50%;
-    width:90%;
+    width:70%;
 }
 .par h3{
     height:60%;

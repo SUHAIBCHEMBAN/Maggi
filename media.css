@@ -1,5 +1,5 @@
 
-@media(max-width:1540px){
+ @media(max-width:1768px){
  
     .bootbar{
         display: none;
@@ -26,10 +26,41 @@
     }   
 }
 
+@media(max-width:1025px){
+    .par h1{
+        width:100%;
+        font-size:50px;
+    }
+
+    .par h3{
+        font-size:25px;
+        width: 100%;
+   }
+
+   #head2{
+      margin-left: 10%;
+   }
+
+   .para p{
+    font-size: 90%
+   }
+}
+
+ 
+
+
 /* Tab View */
 
-@media(max-width:835px){
+ @media(max-width:905px){
     
+
+    .cont p{
+        font-size: 70%;
+    }
+
+    .priv p{
+        font-size: 55%;
+    }
 
     .banner{
         width:100%;
@@ -41,13 +72,13 @@
      }
   
     .li img{
-      width:120%;
+      width:100%;
       height:8%;
     }
 
     .bar{
         position: fixed;
-        width:7%;
+        width:9%;
         height:75%;
     }
 
@@ -64,6 +95,10 @@
        color: rgb(59, 58, 58);
        line-height:95%;
 
+    }
+    .para p{
+        font-size: -5px
+        
     }
     .fullcard{
         display: none;
@@ -133,22 +168,79 @@
     .footmob{
         display: none;
     }
+
+    #head2{
+        margin-left: 5%;
+    }
    
-}
+} 
 
 /* MobilView */
 
-@media(max-width:430px){
+@media(max-width:700px){
+    .para p{
+        font-size: 90%;
+    }
+
+    #head2{
+        font-size:30px;
+    }
+}
+
+@media(max-width:565px){
+     .par h1{
+        width: 100%;
+     }
+
+     .par h3{
+        font-size: 20px;
+     }
+
+     .para p{
+       font-size: 10px;
+     }
+
+     #head2{
+        width: 100%;
+        margin-left:-5%;
+     }
+
+     #head3{
+        margin-left:10%;
+     }
+    
+    }
+
+    @media(max-width:510px){
+        .par h1{
+            font-size: 40px;
+        }
+        .cont p{
+           font-size: 10px;
+        }
+        .priv p{
+            font-size:10px;
+        }
+        #head3{
+            font-size:20px;
+        }
+
+        footer{
+            height: 10rem;
+        }
+    }
+
+
+@media(max-width:440px){
     .bootbar{
-        position:fixed;
-        bottom:0;
         display: flex;
+        width: 100%;
     } 
      
     .banner{
         display: flex;
         height: 80vh;
-        width:100%;
+         width:100%; 
     }
 
     .bar{
@@ -167,16 +259,17 @@
     .par{
         position: absolute;
         top: 60%;
-        width:100%;
+        width:75%;
         height:50%;
+        
     }
 
     .par h1{
         position: absolute;
         left:-20%;
         height:50%;
-        width:100%;
-        font-size:40px;
+        /* width:100%; */
+        font-size:30px;
     }
     .par h3{
         position: absolute;
@@ -184,7 +277,7 @@
         top: 15%;
         height:50%;
         width:100%;
-        font-size:80%;
+        font-size:60%;
         font-weight: 100;
         line-height: normal;
     }
@@ -235,9 +328,50 @@
         line-height:25px;
     }
 
+}
+@media(max-width:410px){
+    .par h1{
+        font-size:30px;
+    }
+}
 
-    
-     
+@media(max-width:305px){
+    .par h1{
+        font-size: 25px; 
+    }
+    .par h3{
+        font-size: 15px;
+    }
 
+    #thrd{
+        margin-top:5rem;
+    }
+}
+@media(max-width:295px){
+    .par h1{
+        font-size: 25px; 
+    }
+    .par h3{
+        font-size: 10px;
+    }
 
+    #thrd{
+        margin-top:5rem;
+    }
+} 
+
+@media(max-width:255px) {
+    .par h1{
+        font-size:20px;
+        font-weight: 600;
+    }
+
+    .logo img{
+        width:10px;
+        height: 10px;
+    }
+
+    .contmob p{
+        font-size:1px;
+    }
 }
