@@ -362,16 +362,19 @@
 
 @media(max-width:255px) {
     .par h1{
-        font-size:20px;
+        font-size:24px;
         font-weight: 600;
     }
 
-    .logo img{
-        width:10px;
-        height: 10px;
+    .par h3{
+        font-size:13px;
     }
 
-    .contmob p{
-        font-size:1px;
+    #mob3{
+        font-size: 20px;
+    }
+
+    .para p{
+        font-size: 10px;
     }
 }
